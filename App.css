@@ -1,0 +1,68 @@
+/* Global styles */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f6fa;
+  color: #2f3640;
+}
+
+/* Container */
+.container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+/* Card style */
+.card {
+  background: white;
+  border: 1px solid #dcdde1;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
+
+/* Heading */
+.card h2 {
+  margin-bottom: 15px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #273c75;
+}
+
+/* Form inputs */
+.card input {
+  width: 100%;
+  padding: 10px;
+  margin: 6px 0;
+  border: 1px solid #dcdde1;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+/* Button */
+.card button {
+  background: #0097e6;
+  color: white;
+  padding: 10px 15px;
+  margin-top: 8px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background 0.3s ease;
+}
+
+.card button:hover {
+  background: #40739e;
+}
+
+/* Results */
+.result {
+  padding: 12px;
+  margin-top: 10px;
+  border: 1px solid #dcdde1;
+  border-radius: 6px;
+  background: #f1f2f6;
+}
